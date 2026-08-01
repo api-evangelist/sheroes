@@ -1,7 +1,28 @@
 aid: sheroes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sheroes.png
 name: Sheroes
-description: Sheroes is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sheroes is a women-only social network and community platform based in
+  India, founded in 2014 by Sairee Chahal. It gives women a safe, moderated space to
+  connect, ask questions anonymously, seek support, learn, and grow across communities
+  spanning careers, health, relationships, parenting, entrepreneurship, and personal
+  finance. The platform operates a mobile app and website, offers helpline and expert
+  support, and has expanded into women-focused financial services (MahilaMoney). Sheroes
+  was surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. As of this enrichment pass Sheroes exposes no public developer API, OpenAPI
+  definition, developer portal, or documented event/webhook surface; the site is a
+  fully client-side single-page application. This profile therefore captures the
+  company identity plus a live domain-security probe of its public host.
 url: https://raw.githubusercontent.com/api-evangelist/sheroes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Community
+- Social Network
+- Women
+- India
+- Careers
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sheroes-domain-security.yml
 - type: Website
   url: https://sheroes.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
