@@ -51,7 +51,7 @@ tags:
 - Women
 - India
 - Careers
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Community
@@ -60,6 +60,7 @@ tags_raw:
 - India
 - Careers
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
